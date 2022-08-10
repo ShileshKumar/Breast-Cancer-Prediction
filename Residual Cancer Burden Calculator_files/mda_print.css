@@ -1,0 +1,383 @@
+/*
+	Description: Print css for printer friendly views.
+	Creator: Jermaine Gonzales
+	
+*/
+
+
+/* print version was not defined so I created our own - jermaine gonzales */
+
+.fixer {
+	width: 0px;
+	height: 0px;
+}
+#nav-language{display:none;}
+#nav-global{display:none;}
+#nav-mymda{display:none;}
+#nav-main{display:none;}
+#site-info-inner{display:none; height:0px;}
+#nav-section{display:none;}
+#skipper{display:none;}
+#nav-tools{
+	display:none;
+    position: absolute;
+    top: 0px;
+}
+/* modify the text size to look better when printed with most printers*/
+#content {
+	font-size: 17px;
+    #font-size: 13px; /* should only work in IE */
+}
+.med #content {
+	font-size: 19px;
+    #font-size: 15px; /* should only work in IE */
+     
+}
+.large #content {
+	font-size: 21px;
+    #font-size: 17px; /* should only work in IE */
+     
+}
+
+
+h2 {
+    font-size: 19px;
+    #font-size: 17px;
+     
+}
+.med  h2,
+{
+    font-size: 21px;
+    #font-size: 19px;
+     
+}
+.large h2 {
+    font-size: 23px;
+    #font-size: 21px;
+     
+}
+
+#logo {
+    margin-left: 0px;
+     
+}
+
+#nav-bread li a {
+    text-decoration: none;
+    color: #999;
+}
+
+/* JES 20090425 - Added next section to style >> symbols like the links */
+#nav-bread li {
+    color: #999;
+}
+
+#nav ul {
+    margin-left: 0;
+	padding-left: 5px;
+	text-indent: 0px;
+	top: 50px;
+	padding-bottom: 15px;
+}
+
+#nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+a img {
+    border: none;
+}
+
+a:link {
+    color: #2971a7;
+     
+}
+a:visited {
+    color: #2971a7;
+     
+}
+
+a:active {
+    color: #2971a7;
+     
+}
+
+.rounded {
+    padding: 5px;
+    margin-bottom: 0px;
+    border:none;
+}
+.extra #content-col1 {
+    padding: 0;
+    border:none;
+    margin-left: 0px;
+    width: 900px;
+}
+.events #content-col1 {
+    width: 291px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.events-detail #content-col1{
+    padding: 0;
+    border:none;
+    margin-left: 0px;
+    width: 850px;
+    #width: 100%; /* should only work for IE browsers */
+}
+.events #content-col2 {
+    min-height: 400px;
+    background-color: #fff;
+    width: 625px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.events-detail #content-col2 {
+    display:none;
+    width:0px;
+    height:0px;
+}
+#event-detail img.event-banner {
+    float: left;
+    width: 273px;
+    #width: 20%; /* should only work for IE browsers */
+    margin-right: 10px; /*15px*/
+    margin-left: 0px; /*12px*/
+    border: 1px solid #cdcdcd;
+}
+
+#event-detail .col2 {
+  	float: left;
+  	width: 550px;
+   	#width: 50%; /* should only work for IE browsers */
+}
+#event-detail {
+	padding-bottom: 0px;
+    background: none;
+}
+
+p.link-aside-back a {
+	display:none;
+   	padding-left: 0px;
+   	background: none;
+}
+
+p.link-aside {
+	display:none;
+    padding: 0px;
+    background: none;
+}
+
+.events li.prev {
+	display: none;
+}
+
+.events li.next {
+	display: none;
+}
+
+.events #event-form {
+	display: none;
+}
+
+h3.month-hdr {
+	padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.patient { background:none; }
+.education { background:none; }
+    
+#search{display:none;}
+    
+.drill #content {
+    padding: 0;
+    border: none;
+    margin-top: 50px;
+	/* margin-left: 3px;*/
+    width: 954px;
+}
+.extra #content-col2 {
+    display:none;
+    width:0px;
+    height:0px;
+}
+
+
+
+.extra #content-wrapper{float:left; top:-50px;}
+
+.extra #col1,
+.extra #col2 {
+	margin-top: 5px;
+	float: left;
+	width: 48%;
+	width: 49%;
+	overflow: visible;
+}
+
+.extra #col1 h2,
+.extra #col2 h2 { margin-top: 0px; }
+
+#site-info{float:left;position:static;}			    
+/* due to resizing of the container the sliders need to remain the set width of 449px */
+.type1-slides-container{width:449px;}
+
+.events #content-col1{display:none;}
+
+.events #content-col2 {
+    min-height: 400px;
+    background-color: #fff;
+    width: 625px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+/* @note 	data table formatting */
+table {
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    width: 100%;
+}
+table, th, td {
+    padding: 0;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+*+html table,
+*+html th,
+*+html td {
+    border-collapse: collapse;
+     
+}
+th {
+    text-align: left;
+    font-weight: normal;
+     
+}
+.patient th {
+    color: #fff;
+    background: transparent url("../img/bg-th-patient.png") repeat-x 0 0;
+    padding: 10px 12px;
+    border-right: 1px solid #265339;
+    border-left: 1px solid #649378;
+}
+*+html .patient th {
+    border: none;
+     
+}
+* html .patient th {
+    border: none;
+     
+}
+th:first-child {
+    border-left: none;
+     
+}
+th:last-child {
+    border-right: none;
+     
+}
+#events-week td {
+    vertical-align: bottom;
+     
+}
+#events-week td,
+#events-month td {
+    padding: 0 4px 6px 12px;
+    color: #2971a7;
+}
+td {
+    border-top: 1px dotted #cdcdcd;
+    padding: 6px 4px 6px 12px;
+    color: #2971a7;
+}
+#events-week td {
+    border-top: none;
+     
+}
+tr.hdr th {
+    border-top: 1px dotted #cdcdcd;
+    background-image: none;
+    padding: 8px 0 2px 12px;
+}
+tr.monday th {
+    border-top: none;
+     
+}
+th.day {
+    text-transform: uppercase;
+    color: #405e6f;
+     
+}
+/* @note	events tables */
+#events-week table {
+    width: 608px;
+     
+}
+#events-week table {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+#th1 {
+    width: 228px;
+     
+}
+#th3 {
+    width: 116px;
+     
+}
+#th4 {
+    width: 116px;
+     
+}
+.monday, .wednesday, .friday,
+.monday th,
+.wednesday th,
+.friday th {
+    background-color: #f4f8fb; /* for printer friendly do i need this */
+     
+}
+table.events-month {
+    width: 916px;
+    #width: 608px; /* should only be used in IE */
+    margin-left: 8px;
+    margin-bottom: 20px;
+    margin-top: -38px;
+     
+}
+table.events-month td {
+    border-top: 1px dotted #cdcdcc;
+    padding-top: 4px;
+}
+table.events-month tr:first-child td {
+    border-top: none;
+     
+}
+table.events-month tr.hide {
+    display:none;
+     
+}
+table.events-month th.event {
+    width: 48%;
+     
+}
+
+/* FIS Print Styles from MHENSLER 6-10-2009*/
+
+body.fis #skipper, body.fis #nav-section {display: none;}
+
+body.fis #grid {width: 90%;}
+
+body.fis .type400 div {width: 80%;}
+
+body.fis div {font-size: 10pt;}
+
+body.fis h2 {font-size: 14pt;}
+
+body.fis th, body.fis td {color: #000;}

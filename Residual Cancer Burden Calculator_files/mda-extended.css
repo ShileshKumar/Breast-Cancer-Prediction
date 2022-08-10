@@ -1,0 +1,40 @@
+/*
+	Description: Extended css for long term css styles
+	Creator: Jermaine Gonzales
+	
+*/
+
+.notice {
+	color:#E71803;
+
+}
+
+.flash_error {
+
+	background-image: url(/images/exclamation_red_thick.gif);
+
+	background-repeat:no-repeat;
+
+	border:solid thin #E71803 ;
+
+	background-color:#E1E0DD;
+
+	padding:.5em;
+
+	padding-left:1.9em;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+
+}
+
+.flash_error li {
+
+  font-size:12px;
+
+  font-weight:bold;
+
+  /*color:#E71803;*/
+
+}

@@ -1,0 +1,46 @@
+div.qa {
+	margin-bottom:15px;
+}
+
+div.qa div.answer {
+	margin-left:15px;
+}
+
+.error {
+	color:red;
+}
+
+.alert {
+	color:red;
+}
+
+.reference {
+	font-size:10px;
+}
+
+div.complete {
+	border:1px solid #009097;
+	padding:10px;
+	margin:25px;
+}
+
+div.body {
+	margin-left:60px;
+}
+
+table.results{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.category-selected { display:block;text-align:center;background-color:rgb(22, 87, 136);padding:10px; color:#fff; }
+a.category:link {  display:blocktext-align:center;padding:10px;background-color:rgb(218, 234, 246);color:#165788;  }
+a.category:hover { background-color:rgb(22, 87, 136); color:#fff;  }
+
+/* table.results.td { */
+/*	width:300px; */
+/*	padding-top:5px; */
+/*	padding-left:10px; */
+/*	vertical-align: top; */
+/* } */
+
